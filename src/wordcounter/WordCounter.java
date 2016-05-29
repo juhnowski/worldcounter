@@ -20,7 +20,8 @@ import java.util.Set;
  */
 public class WordCounter {
 
-    private static boolean checkFirst = true;
+    public static boolean checkFirst = true;
+    public static String sanhw = "C:\\src_sanscrit\\CORRECTIONS\\sanhw1\\sanhw1.txt";
 
     /**
      * @param args the command line arguments
@@ -133,8 +134,7 @@ public class WordCounter {
 
         HashMap dicMap = new HashMap();
         HashMap dicCnt = new HashMap();
-     
-        String sanhw = "C:\\src_sanscrit\\CORRECTIONS\\sanhw1\\sanhw1.txt";
+
         int cnt2 = 0;
         int cnt1 = 0;
         String st = null;
